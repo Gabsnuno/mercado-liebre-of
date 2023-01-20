@@ -1,4 +1,4 @@
-#When we use FROM cmd, we teel Docker to include in our image all the functionality from the node:12.18.1
+#when we use from cmd, we teel docker to include in our image all the functionality from the node:12.18.1
 FROM node:14
 
 COPY . /mercado-liebre-of-main
@@ -10,6 +10,6 @@ WORKDIR /mercado-liebre-of-main
 
 RUN npm install
 
-CMD [ "npm", "start" ] 
-
 EXPOSE 3000
+
+CMD [ "npm", "start" ] 
