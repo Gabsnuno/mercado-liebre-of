@@ -1,8 +1,7 @@
 # Mercado liebre
 ## General Information
 ***
-I created this app only with Frontend using HTML, express, JavaScript, Docker, and must recently I added a CircleCI file with YAML. 
-
+I created this app focused only on Frontend using HTML, Express, Node.js, JavaScript, Docker, and must recently I added a CircleCI file with YAML to create jobs and workflows.
 ## Objective
 ***
 Create an application that can help me improve my knowledgment in programming. 
@@ -37,3 +36,5 @@ $ git status
 ~~~
 $ git push origin <route_name>
 ~~~
+~~~
+$ git push --set-upstream origin <branch_name> #This command helps us create a 'bond' between the local branch and the remote one
