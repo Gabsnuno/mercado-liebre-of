@@ -37,3 +37,5 @@ $ git status
 ~~~
 $ git push origin <route_name>
 ~~~
+~~~
+$ git push --set-upstream origin <branch_name> #This command helps us create a 'bond' between the local branch and the remote one
