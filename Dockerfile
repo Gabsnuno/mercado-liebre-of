@@ -10,6 +10,9 @@ WORKDIR /mercado-liebre-of-main
 
 RUN npm install
 
+#Esto sirve para exponer el contenedor en un puerto especifico
 EXPOSE 3000
 
 CMD [ "npm", "start" ] 
+
+
