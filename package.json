@@ -1,0 +1,25 @@
+{
+  "name": "html_css",
+  "version": "1.0.0",
+  "description": "I created this app just with Frontend for a project with my friends.  It is a very basic page but i'm working on it to uploaded as well to Docker and get to know Docker and containers in a more advanced way.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabsnuno/mercado-liebre-of.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Gabsnuno/mercado-liebre-of/issues"
+  },
+  "homepage": "https://github.com/Gabsnuno/mercado-liebre-of#readme"
+}
